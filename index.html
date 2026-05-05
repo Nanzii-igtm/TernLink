@@ -1,9 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>TernLink - Safe Digital Gigs for Kenyan Youth</title>
+    <!-- Links CSS for Visual Appeal + Responsive Design pts -->
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <header>
+        <a href="/">
+            <h1>TERN LINK</h1>
+        </a>
+    </header>
+        <nav>
+            <!--links -->
+            <a href="index.html">Home</a>
+            <a href="opportunities.html">Find Gigs</a>
+            <a href="safety-center.html">Safety Center</a>
+        </nav>
+
+    <!-- Main -->
+    <main>
+        <!-- Hero section: explains problem. Helps Usability -->
+        <section>
+            <h1>Stop Getting Scammed on Gig Sites</h1>
+            <p>TernLink connects Kenyan youth to verified online jobs with real M-Pesa rates. No more fake clients.</p>
+        </section>
+
+        <!-- Form section -->
+        <section>
+            <h2>Tell Us Your Skills</h2>
+            <form id="gigForm">
+                <!-- Label-->
+                <label for="skill">Your Main Skill:</label>
+                <select id="skill" name="skill" required>
+                    <option value="">Choose a skill</option>
+                    <option value="writing">Writing</option>
+                    <option value="design">Graphic Design</option>
+                    <option value="data-entry">Data Entry</option>
+                </select>
+
+                <label for="hours">Hours You Can Work Per Week:</label>
+                <input type="number" id="hours" name="hours" min="1" max="40" required>
+
+                <label for="location">Your County:</label>
+                <input type="text" id="location" name="location" placeholder="e.g. Nairobi" required>
+
+                <!-- Button triggers JS event listener -->
+                <button type="submit">Find My Gigs</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 TernLink</p>
+    </footer>
+
+    <!-- JS file connects at bottom so HTML loads first -->
+    <script src="./script.js"></script>
+
 </body>
+
 </html>
