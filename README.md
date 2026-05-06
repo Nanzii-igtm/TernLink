@@ -4,7 +4,7 @@
 Nanu Kagezi
 
 ### Bugs
-There are no known bugs or errors
+There are no known bugs or errors.
 
 ### What is this?
 TernLink helps Kenyan youth find real online gigs without getting scammed. 

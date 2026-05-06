@@ -31,3 +31,32 @@ document.addEventListener("DOMContentLoaded", () => {
     window.location.href = "opportunities.html";
   });
 });
+
+if (window.location.pathname.includes('opportunities.html')) {
+    const userSkill = localStorage.getItem('ternlink_skill');
+    const userLocation = localStorage.getItem('ternlink_location');
+    const greeting = document.getElementById('greeting');
+    const gigList = document.getElementById('gig-list');
+
+    if (userSkill && userLocation) {
+        // THIS REPLACES "Checking for your gigs..."
+        greeting.textContent = `Showing ${userSkill} gigs in ${userLocation};`;
+
+        // THIS ADDS THE ACTUAL GIG CARDS
+        gigList.innerHTML = `
+            <div class="gig-card">
+                <h4>${userSkill} Needed - Local Client</h4>
+                <p>Location: ${userLocation}</p>
+                <p>Pay: KES 1,500 for 3 hours</p>
+            </div>
+            
+            <div class="gig-card">
+                <h4>Remote ${userSkill} Project</h4>
+                <p>Work from home</p>
+                <p>Pay: KES 3,000 per task</p>
+            </div>
+        `;
+    } else {
+        greeting.textContent = 'Oops! Go back to Home and pick a skill first!';
+    }
+}
