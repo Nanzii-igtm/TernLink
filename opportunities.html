@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Gigs - TernLink</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Same header as home page for consistency -->
+    <header>
+        <h1>TERNLINK</h1>
+        <p>Your verified gigs are here</p>
+    </header>
+
+    <!-- Same nav so user can move around -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="opportunities.html">Find Gigs</a>
+        <a href="safety-center.html">Safety Center</a>
+    </nav>
+
+    <main>
+        <section>
+            <!-- JS will change this text based on what they picked -->
+            <h2 id="greeting">Checking for your gigs...</h2>
+            <p id="sub-text">Give us a sec to match you with verified opportunities.</p>
+            
+            <!-- This is empty on purpose. JS will fill it with gig cards -->
+            <div id="gig-list"></div>
+            
+            <!-- In case they land here directly without filling the form -->
+            <div id="no-data" style="display: none;">
+                <p>Looks like you haven’t picked a skill yet.</p>
+                <a href="index.html">Go back to Home and start here</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 TernLink</p>
+        <p><small>No scams. Just real gigs.</small></p>
+    </footer>
+
+    <!-- Same JS file handles all pages -->
+    <script src="./code.js"></script>
+</body>
+</html>
