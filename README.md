@@ -15,7 +15,7 @@ If you’ve ever seen those "Earn 20K daily typing!! Pay 500 registration" Whats
 In order to connect the youth to viable jobs they can do as they proceed with their University studies
 
 ### Live link
-
+click this link to access the site: https://nanzii-igtm.github.io/TernLink/
 
 ### How it works
 1. *Home page:* Pick your skill + type your location
