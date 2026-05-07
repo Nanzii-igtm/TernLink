@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: cursive;
     line-height: 1.5;
     color: #222;
     background-color: #1A1A2E;
@@ -110,8 +110,9 @@ justify-content: center;
     }  
 
     .search a:hover {
-    color: cornflowerblue;
-    text-decoration: underline;
+    color: #D4AF37;
+    text-decoration: none;
+    background-color: #1A1A2E;
 }
 
   .page{
