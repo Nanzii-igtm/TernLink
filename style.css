@@ -6,8 +6,8 @@ body {
 }
 
 .head{
-    background-color: #0F0F1A;
-    color: #212529;
+    background-color: #D4AF37;
+    color: #1A1A2E;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-family: cursive;
     gap: 390px;
@@ -15,10 +15,11 @@ body {
     padding: 20px;
     display: flex;
     text-align: center;
+    border-radius: 15px;
 }
 
 .head h1 {
-    color: white;
+color: #1A1A2E;
 }
 
 .head a {
@@ -61,11 +62,6 @@ footer {
     padding: 20px;
     margin-top: 30px;
 }
-
-    .search {
-        flex-direction: row; 
-        justify-content: center;
-    }
     
    .tip-card {
     background: #fff3cd;
@@ -94,7 +90,7 @@ ul, ol {
     } 
   
 .search ul{
-background-color: #D4AF37;
+background-color: #C5A047;
 text-align: center;
 padding: 12px 0;
 list-style: none;
@@ -110,6 +106,7 @@ justify-content: center;
     font-weight: 600;
     font-size: 18px;
     letter-spacing: 0.5px;
+    border-radius: 15px;
     }  
 
     .search a:hover {
