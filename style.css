@@ -55,7 +55,11 @@ button {
     cursor: pointer;
 }
 
-footer {
+button:hover {
+    background: #155ab6;
+}
+
+.end{
     background: #333;
     color: #ddd;
     text-align: center;
