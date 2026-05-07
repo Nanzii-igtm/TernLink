@@ -22,7 +22,7 @@ There are no bugs recorded in the system
 ## Behavior Driven Development (BDD)
 | Behavior | Input Example | Output Example |
 | --- | --- | --- |
-| The user enters valid gig details and clicks Add Gig | Title: "Wedding Photographer", Location: "Nairobi", Budget: "KES 30,000" | Gig card appears on page with all details shown |
+| The user enters valid gig details and clicks Add Gig | Title: "Graphic Design", Location: "Nairobi", Budget: "KES 3000" | Gig card appears on page with all details shown |
 | The user submits the form with empty fields | Title: "", Budget: "" | Alert: "Please fill in all fields" |
 | The user refreshes the page after adding gigs | Page reloads | Previously added gigs are still displayed from localStorage |
 | The user clicks Clear All Gigs and confirms | Click OK on confirm popup | All gig cards removed from page and localStorage is cleared |
@@ -32,8 +32,7 @@ There are no bugs recorded in the system
 * *HTML* - Page structure and form elements
 * *CSS* - Styling, layout, and responsive design
 * *JavaScript* - Form validation, localStorage, DOM manipulation
-* *Git* - Version control
-* *GitHub Pages* - Deployment
+* *GitHub* - Deployment
 
 ## Support and Contact Details
 If you run into any issues or have questions, ideas or concerns, please contact me at gezniwasu354@gmail.com
