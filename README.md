@@ -15,8 +15,7 @@ If you’ve ever seen those "Earn 20K daily typing!! Pay 500 registration" Whats
 In order to connect the youth to viable jobs they can do as they proceed with their University studies
 
 ### Live link
-👉 [Paste your Netlify link here]  
-No link yet? Just download and open index.html
+
 
 ### How it works
 1. *Home page:* Pick your skill + type your location
