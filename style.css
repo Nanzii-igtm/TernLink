@@ -60,11 +60,11 @@ button:hover {
 }
 
 .end{
-    background: #333;
-    color: #ddd;
+    background-color: #D4AF37;;
+    color: #1A1A2E;
     text-align: center;
-    padding: 20px;
-    margin-top: 30px;
+    border-radius: 12px;
+    font-size: 20px;
 }
     
    .tip-card {
