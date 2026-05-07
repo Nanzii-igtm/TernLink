@@ -129,4 +129,12 @@ justify-content: center;
     transition: box-shadow 0.3s ease;
     }
 
-    
+    .scam-alert {
+    width: 800px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 30px;
+    }
