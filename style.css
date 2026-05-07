@@ -80,4 +80,11 @@ ul, ol {
     margin: 15px 0;
 }
 
-   
+    .logo{
+    display: block;
+    height: 130px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 11px;
+    } 
+  
