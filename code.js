@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // When user clicks the submit button
   form.addEventListener("submit", (e) => {
-    e.preventDefault(); // stop the page from refreshing
+    event.preventDefault(); // stop the page from refreshing
 
     // Get what the user picked/typed
     let userSkill = skillDropdown.value;
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Check if they forgot to fill something
     if (userSkill === "" || userLocation === "") {
-      alert("Hey, please select your skill and type your location first!");
+      alert("Please select your skill and type your location first!");
       return; // stop running if form is empty
     }
 
@@ -60,3 +60,11 @@ if (window.location.pathname.includes('opportunities.html')) {
         greeting.textContent = 'Oops! Go back to Home and pick a skill first!';
     }
 }
+
+// clearbutton with no refreshing
+const clearButton = document.getElementById('clear-button');
+
+clearButton.addEventListener('click', function() {
+  document.getElementById("gigForm").reset();
+  localStorage.removeItem("gigs");
+});
